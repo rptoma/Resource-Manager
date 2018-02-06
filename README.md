@@ -7,4 +7,4 @@ In cazul unui scenariu in care mai multe obiecte folosesc aceeasi resursa (precu
 
 Resursele (de exemplu, **image** si **sound**) trebuie sa mosteneasca clasa **resource**. Atunci cand un obiect are nevoie de o resursa, acesta va face un **dynamic_cast** la tipul de clasa de care are nevoie pentru a putea fi utilizabila resursa.
 
-La rulare, se poate observa ca, in ciuda faptului ca, mai multi copaci folosesc aceleasi resurse, adresele de memorie ale resurselor sunt identice.
+La rulare, se poate observa ca, in ciuda faptului ca mai multi copaci folosesc aceleasi resurse, adresele de memorie ale resurselor sunt identice.
